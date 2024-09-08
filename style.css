@@ -1,0 +1,105 @@
+body {
+    margin: 50px;
+    font-size: 1.5rem;
+}
+
+header {
+    margin: 50px;
+    text-align: center;
+}
+
+main {
+    margin: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center; 
+}
+
+.dominoes {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5%;
+    border: 1px solid grey;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.dominoes-section:first-child {
+    border-bottom: 2px solid grey;
+}
+
+.dice {
+    display: flex;
+    padding: 15px;
+    width: 70px;
+    height: 70px;
+}
+
+.dot {
+    background-color: grey;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+}
+
+.dice-1 {
+    justify-content: center;
+    align-items: center;
+}
+
+.dice-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.dice-2 .dot:first-child {
+    align-self: flex-start;
+}
+
+.dice-2 .dot:last-child {
+    align-self: flex-end;
+}
+
+.dice-3 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.dice-3 .dot:first-child {
+    align-self: flex-start;
+}
+
+.dice-3 .dot:nth-child(2) {
+    align-self:center;
+}
+
+.dice-3 .dot:last-child {
+    align-self: flex-end;
+}
+
+.dice-4, 
+.dice-5, 
+.dice-6 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.dice-4 .column, 
+.dice-5 .column,
+.dice-6 .column {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+} 
+
+
+.dice-5 .column:nth-child(2) {
+    justify-content: center;
+}
