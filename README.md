@@ -4,3 +4,5 @@
 
 ## Objective
 Using HTML, CSS, JavaScript, and React, I aim to design and develop a Dominoes web application that randomly generates and displays 50 dominoes on the page each time it is refreshed.
+
+Live at: https://zhu00188.github.io/jiaqi-zhu-dominoes.github.io/
